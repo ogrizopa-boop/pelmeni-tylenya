@@ -1,2 +1,0 @@
-# pelmeni-tylenya
-тюлень пельмень

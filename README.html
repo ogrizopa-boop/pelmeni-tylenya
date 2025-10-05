@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Милый сайт</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #ffb6c1; /* Розовый фон */
+        }
+        
+        .main-text {
+            font-size: 36px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        
+        .nya-button {
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .nya-button:hover {
+            background-color: #ff1493;
+        }
+        
+        .nya-text {
+            margin-top: 20px;
+            font-size: 48px;
+            font-weight: bold;
+            color: #ff0066;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-text">ты тюлень</div>
+    <button class="nya-button" onclick="showNya()">Нажми на пельменя!!!!!</button>
+    <div id="nya" class="nya-text">НЯ</div>
+
+    <script>
+        function showNya() {
+            const nya = document.getElementById('nya');
+            nya.style.display = 'block';
+        }
+    </script>
+</body>
+</html>
